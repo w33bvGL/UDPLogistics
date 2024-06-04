@@ -1,0 +1,123 @@
+.terms {
+ background-color: white;
+ padding: 20px 10px;
+
+ .container-inner {
+  width: 100%;
+
+  h2 {
+   color: #0181EF;
+   font-family: "Raleway", sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+   line-height: 46px;
+   text-align: center;
+   margin-bottom: 30px;
+  }
+
+  .terms-info-container {
+   width: 100%;
+
+   h4 {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    gap: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #222222;
+   }
+
+   .terms-ot-text {
+    color: #9b9b9b;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+   }
+
+   .terms-info-two {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+    .terms-info-with-border {
+     width: 100%;
+
+     .terms-info-with-border-title-section {
+      border-left: 3px solid #00BCF9;
+      padding-left: 10px;
+      margin-bottom: 20px;
+
+      strong, p {
+       font-family: "Raleway", sans-serif;
+       font-size: 18px;
+       font-weight: 500;
+       line-height: 25px;
+       text-align: left;
+      }
+
+      strong {
+       font-weight: 600;
+      }
+
+      p {
+       font-size: 17px;
+      }
+     }
+    }
+   }
+
+   .terms-info-with-border-four-params {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .terms-info-with-border-four-param-setion {
+     width: 50%;
+     border-left: 3px solid #00BCF9;
+     padding-left: 10px;
+     margin-bottom: 20px;
+
+     strong, p {
+      font-family: "Raleway", sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 25px;
+      text-align: left;
+     }
+
+     strong {
+      font-weight: 600;
+     }
+    }
+   }
+
+   .terms-and-conditions-params {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .terms-param-witch-border {
+     border-left: 3px solid #00BCF9;
+     padding-left: 10px;
+
+     strong {
+      font-family: "Raleway", sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 25px;
+      text-align: left;
+     }
+    }
+   }
+  }
+ }
+}

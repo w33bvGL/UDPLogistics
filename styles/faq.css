@@ -1,0 +1,101 @@
+.faq {
+ background: linear-gradient(270deg, #0181EF 0%, #00BCF9 98.34%);
+ padding: 20px 10px;
+
+ .container-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .button_3 {
+   margin-top: 20px;
+   width: 189px;
+   height: 39px;
+   padding: 0 10px;
+   display: flex;
+   color: #222222;
+   align-items: center;
+   font-family: "Raleway", sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 28px;
+   text-align: left;
+   justify-content: space-around;
+
+   img {
+    width: 20px;
+   }
+  }
+ }
+
+ .accordions-list {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+ }
+
+ h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 46px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+ }
+}
+
+
+.accordion {
+ background-color: white;
+ color: #222222;
+ cursor: pointer;
+ padding: 8px 10px;
+ width: 100%;
+ text-align: left;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+ display: flex;
+ white-space: normal !important;
+ gap: 10px;
+ align-items: center;
+ font-family: "Raleway", sans-serif;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 28px;
+ margin-top: 20px;
+}
+
+.active, .accordion:hover {
+ background-color: #eaeaea;
+}
+
+.panel {
+ padding: 0 18px;
+ background-color: #F8F8F8;
+ max-height: 0;
+ overflow: hidden;
+ transition: max-height 0.2s ease-out;
+ font-family: "Raleway", sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 22px;
+ text-align: left;
+ color: #222222;
+
+ p {
+  padding: 20px 0;
+ }
+
+ ol {
+  margin-left: 18px;
+
+  li {
+   margin-bottom: 10px;
+  }
+ }
+}
+

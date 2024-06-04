@@ -1,0 +1,123 @@
+header {
+ width: 100%;
+ height: 75px;
+ max-height: 75px;
+ background-color: white;
+ position: sticky;
+ z-index: 999;
+ top: 0;
+ padding: 0 10px;
+}
+
+header .container-inner {
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ height: 100%;
+ align-items: center;
+}
+
+header .container-header-logo {
+ height: 48px;
+ position: relative;
+ cursor: pointer;
+
+
+ img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+ }
+}
+
+header .header-container-info {
+ .header-container-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 50px;
+ }
+
+ nav {
+  width: 100%;
+
+  ul {
+   display: flex;
+   list-style: none;
+   font-family: "Raleway", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 21px;
+   gap: 40px;
+   color: #222222;
+   font-size: 18px;
+
+   a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    white-space: nowrap;
+
+    &:hover {
+     color: #0181EF;
+    }
+   }
+  }
+ }
+
+ .language-selector {
+  padding: 0 10px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  min-width: 150px;
+  height: 39px;
+  border: 2px solid #0181EF;
+  border-radius: 2px;
+
+  .lang-selector-active-language {
+   cursor: pointer;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background: linear-gradient(270deg, #0181EF 0%, #00BCF9 98.34%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   img {
+   }
+  }
+
+  .lang-selector-container {
+   display: none;
+  }
+ }
+}
+
+.header-container-nav {
+ button {
+  min-width: 189px;
+  height: 39px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+
+  img  {
+   width: 18px;
+   user-select: none;
+   pointer-events: none;
+  }
+ }
+}
