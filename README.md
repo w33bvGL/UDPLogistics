@@ -1,7 +1,7 @@
 # UDPlogistics - logistics company engaged in the delivery
 
 <a href="https://w33bvgl.github.io/pro-motors/">
-  <img src="img/logo.png" alt="ProMotors logo" style="width: 150px;">
+  <img src="resources/img/logo.png" alt="UDPlogistics logo" style="width: 150px;">
 </a>
 
 Author: @bravisthemes <br>
