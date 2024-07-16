@@ -5,6 +5,6 @@
 </a>
 
 ![site statistics](resources/img/image.png)
-![site img](img/promotors.png)
+![site img](resources/img/screenshot.png)
 
   
