@@ -4,6 +4,10 @@
   <img src="resources/img/logo.png" alt="UDPlogistics logo" style="width: 150px;">
 </a>
 
+Author: none <br>
+Phone: none <br>
+Email: none
+
 ![site statistics](resources/img/image.png)
 ![site img](resources/img/screenshot.png)
 
