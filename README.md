@@ -9,6 +9,6 @@ Phone: none <br>
 Email: none
 
 ![site statistics](resources/img/image.png)
-![site img](resources/img/screenshot.png)
+![site img](resources/img/screenshot2.png)
 
   
