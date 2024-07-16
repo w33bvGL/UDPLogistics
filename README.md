@@ -1,4 +1,4 @@
-# UDPlogistics - Online car maintenance services
+# UDPlogistics - logistics company engaged in the delivery
 
 <a href="https://w33bvgl.github.io/pro-motors/">
   <img src="img/logo.png" alt="ProMotors logo" style="width: 150px;">
